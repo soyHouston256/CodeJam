@@ -1,3 +1,4 @@
+/*Comparar dos arrays y retornar las coincidencias*/
 function matchValues(arrayFirst: number[], arraySecond: number[]) {
     
     let newArray = arrayFirst.filter(element  =>{
