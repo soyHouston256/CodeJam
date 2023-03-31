@@ -5,13 +5,14 @@ function buscarPalabra(frase: string, palabraBuscada: string) {
   if(textoLimpio.includes(palabraBuscada)) {
     let palabras = textoLimpio.split(" ")
     let mapa:{ [clave: string]: number} = {}; 
-    for(let palabra of palabras) {
-      if(mapa[palabra]) {
+    for (let palabra of palabras) {
+      if (mapa[palabra]) {
         mapa[palabra]++
-      }else {
+      } else {
         mapa[palabra] = 1
       }
     }
+    console.log(mapa)
     resultado = mapa[palabraBuscada]
   } else {
     resultado = 0
