@@ -1,3 +1,4 @@
+/*Pasar un texto y una palabra y sensurar todas las coincidencias de la palabra en el texto*/
 function sensured(text: string, wordSensured: string) {
   const textClean = text.split(' ')
   let textNew = ``
