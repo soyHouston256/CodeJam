@@ -1,3 +1,4 @@
+/*Funcion que retorna la letra que mas se repite en un texto y la cantidad de veces que se repite*/
 function mapText(text:string) {
   let map:any = {}
   let highValue = 0
