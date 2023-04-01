@@ -18,6 +18,6 @@ function subSet(arraysPrincipal:number[], length:number) {
   result.push(set)
   return result
 }
-const valores = [1,2,3,4,5,6,7,4,6,8]
+const valores = [1,2,3,4,5,6,7,4,6,8,7,6]
 
 subSet(valores,3)
