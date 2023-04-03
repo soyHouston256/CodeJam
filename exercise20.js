@@ -1,3 +1,4 @@
+/*Function que te diga si dos palabras son anagramas entre si*/
 function anagram(textFirst:string, textSecond: string) {
 
    let map:any = {}
