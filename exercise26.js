@@ -11,4 +11,4 @@ function fibonacci(number: number) {
     return array
 }
 
-fibonacci(7)
+fibonacci(7)  
