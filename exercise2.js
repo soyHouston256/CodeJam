@@ -1,3 +1,4 @@
+/*Evaluar si una palara es palimdromo*/
 const valor = 'ala'
 const valorInvertido = valor.split('').reverse().join('')
 

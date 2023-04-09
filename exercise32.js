@@ -1,4 +1,4 @@
-/*Dado un array devolver otro array elevanto los items al cada uno de sus items al cuadrado*/
+/*Dado un array devolver otro array elevando los items al cuadrado*/
 function powArray(numbers: number[]): number[] {
   let result:number[] = []
   for (let number of numbers) {

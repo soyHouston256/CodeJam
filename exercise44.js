@@ -1,4 +1,4 @@
-/*Dado un array de string devolver los que otro array de los string que tengas mas de dos palabras*/
+/*Dado un array de string devolver otro array con los string que tengan mas de dos palabras*/
 
 function buildArray(text: string[]): string[] {
   let result:string[] = []

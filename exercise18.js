@@ -1,3 +1,4 @@
+/*Dado un numero devolver todos sus divisores*/
 function showDivisor(number: number) {
    let result =``
    for (let item=0; item<=number;  item++) {

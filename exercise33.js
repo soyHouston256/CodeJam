@@ -1,3 +1,4 @@
+/*hace un reloj en real time*/
 function reloj(){
   const time = new Date()
   let hour= time.getHours()

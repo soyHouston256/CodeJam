@@ -28,3 +28,4 @@ function anagram(textFirst:string, textSecond: string) {
 }
 
 anagram('sunasst', 'tunasss')
+anagram('sunasst', 'tunassr')

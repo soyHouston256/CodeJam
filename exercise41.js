@@ -1,5 +1,5 @@
 /*dado un numero dibujar un arbolito con asteriscos*/
-function graphThre(number:number): string{
+function graphTree(number:number): string{
   let result: string= `\n`
   let half = number-1
   for(let row=0; row<number; row++) {
@@ -17,4 +17,4 @@ function graphThre(number:number): string{
   return result
 }
 
-graphThre(5)
+graphTree(5)

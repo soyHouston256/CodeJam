@@ -1,4 +1,4 @@
-/*Tomar un texto y devolver todos el texto en mayusculas o minusculas segun la cantidad de texto que caracteres presentes en el texto*/
+/*Tomar un texto devolver todos el texto en mayusculas o minusculas segun la si hay mas mayusculas o minusculas */
 
 function convert(text:string):string {
   let result = ``

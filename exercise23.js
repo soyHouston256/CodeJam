@@ -1,3 +1,4 @@
+/*dado un texto devolver la primera letra de cada palabra en mayuscula*/
 function capitalize(text: string) : string {
   const textClean = text.split(" ")
   let result = ``

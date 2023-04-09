@@ -1,3 +1,6 @@
+/*Dado un numero devolver el numero invertido 
+ejemplo 123 retornar 321
+*/
 function invertirNumero(numero:number) {
   let resultado_invertido = 0
 

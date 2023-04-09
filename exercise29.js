@@ -22,4 +22,5 @@ function capicua2(number:number): boolean {
 }
 
 capicua(11)
+capicua(12)
 capicua2(11)

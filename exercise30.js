@@ -1,4 +1,4 @@
-/*dado un array eliminar los valores duplicados y si es string lo elminas*/
+/*dado un array eliminar los valores duplicados y los string*/
 function deleteDuplicates(numbers:(string | number)[]): number[] { 
   let map = new Map<number, boolean>();
   for (let number of numbers) {

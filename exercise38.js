@@ -2,9 +2,9 @@
 
 function square(number:number): number[] {
   let result: number[] = []
-  for(let item=1; item<number; item++) {
+  for(let item=1; item<=number; item++) {
     result.push(item*item)
   }
   return result
 }
-square(78)
+square(10)

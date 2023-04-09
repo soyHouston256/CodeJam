@@ -1,3 +1,10 @@
+/*Dado un numero retornar un cuadrado vacio ejemplo
+valor = 4
+'****'
+'*  *'
+'*  *'
+'****'
+*/
 function graph(length: number) {
   for (let i = 1; i<=length; i++) {
     let paint = ``

@@ -1,4 +1,4 @@
-
+/*Dado un texto y una palabra devolver cuantas veces se repite en el texto*/
 function buscarPalabra(frase: string, palabraBuscada: string) {
   let resultado = 0;
   const textoLimpio = frase.toLocaleLowerCase().replace(/[!¡.,-]/gi,'');
@@ -12,7 +12,6 @@ function buscarPalabra(frase: string, palabraBuscada: string) {
         mapa[palabra] = 1
       }
     }
-    console.log(mapa)
     resultado = mapa[palabraBuscada]
   } else {
     resultado = 0

@@ -1,3 +1,4 @@
+/*dado un array de alumnos y sus calificaciones devolver la cantidad de aprobados y desaprobados*/
 function status(registros:any): string{
   let aprove=0
   let disaprove = 0

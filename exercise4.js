@@ -1,3 +1,4 @@
+/*Dado un texto retorno el valor inventido*/
 function inventirTexto(texto: string) {
   let valorInvertido = ''
   for (let letras of texto) {

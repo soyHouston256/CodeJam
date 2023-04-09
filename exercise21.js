@@ -6,4 +6,4 @@
    }
    return textCut
  }
-cut3000('asd asdasd asda',5);
+cut3000('los herores del silencio',5);
