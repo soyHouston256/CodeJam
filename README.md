@@ -35,10 +35,12 @@ valor = 4
     ```matchValues([2,3,5,9], [3,4,5,6,9])  Retorna [ 3, 5, 9 ]```
 ##### - Reto 10
 - Algoritmo que nos dibuje el siguiente grafico
- [-] 
- [-] [-] 
- [-] [-] [-] 
- [-] [-] [-] [-] 
+  ``` 
+  [-] 
+  [-] [-] 
+  [-] [-] [-] 
+  [-] [-] [-] [-] 
+  ```
 ##### - Reto 11
 - Pasar un texto y una palabra y sensurar todas las coincidencias de la palabra en el texto
     ```Ejemplo:' sensured('Houston aveces es un dolor de cabeza', 'Houston')``` 
